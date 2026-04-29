@@ -11,7 +11,7 @@ from multiprocessing import util
 #tf_config must be placed here!
 tf_config = {
     'cluster': {
-        'worker': ['192.168.31.110:11111', '192.168.31.111:11111', '192.168.31.112:11111', '192.168.31.113:11111', '192.168.31.114:11111']
+        'worker': ['', '', '', '', ''] #put ip:port here
     },
     'task': {'type': 'worker', 'index': 0}
 } #Only 'index' is different between workers
